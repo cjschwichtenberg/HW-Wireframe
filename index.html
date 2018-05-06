@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HW-Wireframe</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <!-- only using <header> tag vs <h1> for since no content -->
+    <!-- Header Block -->
+    <header class="header">header</header>
+
+    <!-- only using <nav> tag vs <ul/ol> <a href> & others since no content  -->
+    <!-- Navigation Block -->
+    <nav class="nav">nav</nav>
+
+    <!-- Parent Container for section/article & aside boxes  -->
+    <main class="flexbox">
+        <!-- lefthand Section Block, embedded in 'flexbox' -->
+        <section class="left">
+            <div>
+                <!-- heading for left 'section' column -->
+                <header>
+                    <p class="section-heading">section</p>
+                </header>
+                <!-- Article Block with embedded heading, content heading & content section, child of Section Block -->
+                <div>
+                    <article class="article">
+                        <heading class="article-heading">article</heading>
+                        <p class="h1-h3">h1,h2,h3</p>
+                        <p class="p">p</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--righthand Aside Block, embedded in 'flexbox'  -->
+        <aside class="right">
+            <!-- heading for right 'aside' column -->
+            <header>
+                <p class="aside-head">aside</p>
+            </header>
+        </aside>
+
+    </main>
+
+    <!-- Footer Block -->
+    <footer>footer</footer>
+
+
+</body>
+
+</html>
