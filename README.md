@@ -1,2 +1,4 @@
 # HW-Wireframe
-HTML/CSS Homework-1st Assignment-Easier Assignment
+University of Richmond Coding Bootcamp: GIT/HTML/CSS Homework Assignment
+
+Build a web design skeleton using HTML/CSS. 
